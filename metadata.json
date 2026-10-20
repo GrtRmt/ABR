@@ -1,0 +1,8 @@
+{
+  "name": "REMIX ABR",
+  "description": "ABR-verzekering (Alle Bouwplaatsrisico's) voor nieuwbouw en renovatie. All-risk bescherming, foutloze burenhinder (Art. 3.101 BW) en No-Fault schadeloosstelling zonder werfstilstand. Onafhankelijk advies door Remaut Verzekeringen Ledegem.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

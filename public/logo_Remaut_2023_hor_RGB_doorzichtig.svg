@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 180" width="100%" height="100%" fill="none">
+  <defs>
+    <style>
+      .brand-title {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-weight: 900;
+        font-size: 72px;
+        fill: #0B2545;
+        letter-spacing: -0.5px;
+      }
+      .brand-subtitle {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-weight: 500;
+        font-size: 27px;
+        fill: #0B2545;
+        letter-spacing: 0.2px;
+      }
+      .pipe-sep {
+        font-weight: 300;
+        fill: #0B2545;
+        opacity: 0.85;
+      }
+    </style>
+  </defs>
+
+  <g id="remaut-logo">
+    <text x="35" y="94" class="brand-title">REMAUT</text>
+
+    <g id="hexagon-puzzle">
+      <!-- Top-Right Piece Filled -->
+      <path d="M 380,20 
+               L 418,42 
+               L 418,64 
+               L 380,64 
+               L 380,53 
+               C 374,53 370,49 370,42 
+               C 370,35 374,31 380,31 
+               L 380,20 Z" 
+            fill="#0B2545" />
+
+      <!-- Outer Hexagon Border -->
+      <polygon points="380,20 418,42 418,86 380,108 342,86 342,42" 
+               stroke="#0B2545" 
+               stroke-width="5" 
+               stroke-linejoin="round" 
+               stroke-linecap="round"
+               fill="none" />
+
+      <!-- Vertical Seams -->
+      <path d="M 380,20 
+               L 380,31 
+               C 374,31 370,35 370,42 
+               C 370,49 374,53 380,53 
+               L 380,64 
+               L 380,75 
+               C 374,75 370,79 370,86 
+               C 370,93 374,97 380,97 
+               L 380,108" 
+            stroke="#0B2545" 
+            stroke-width="5" 
+            stroke-linecap="round" 
+            stroke-linejoin="round" 
+            fill="none" />
+
+      <!-- Horizontal Seams -->
+      <path d="M 342,64 
+               L 353,64 
+               C 353,58 357,54 364,54 
+               C 371,54 375,58 375,64 
+               L 380,64 
+               L 391,64 
+               C 391,70 395,74 402,74 
+               C 409,74 413,70 413,64 
+               L 418,64" 
+            stroke="#0B2545" 
+            stroke-width="5" 
+            stroke-linecap="round" 
+            stroke-linejoin="round" 
+            fill="none" />
+    </g>
+
+    <text x="435" y="94" class="brand-title">VERZEKERINGEN</text>
+
+    <text x="35" y="148" class="brand-subtitle">
+      Verzekeren <tspan class="pipe-sep">|</tspan> Sparen &amp; Beleggen <tspan class="pipe-sep">|</tspan> Lenen <tspan class="pipe-sep">|</tspan> Lokaal Bankieren
+    </text>
+  </g>
+</svg>
